@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.apache.http.NameValuePair;
@@ -44,7 +45,14 @@ public class SignUpActivity extends AppCompatActivity {
         //Crete Spinner
         creteSpinner();
 
+        //Open Service Get Location
+        openServiceGetLocation();
+
     }   // Main Method
+
+    private void openServiceGetLocation() {
+
+    } //openServiceGetLocation
 
     private void creteSpinner() {
 
@@ -118,6 +126,8 @@ public class SignUpActivity extends AppCompatActivity {
         stopSpinner = (Spinner) findViewById(R.id.spinner);
         timeStartSpinner = (Spinner) findViewById(R.id.spinner2);
         timeEndSpinner = (Spinner) findViewById(R.id.spinner3);
+        latTextView = (TextView) findViewById(R.id.textView14);
+        lngTextView = (TextView) findViewById(R.id.textView18);
 
 
     }   // bindWidget

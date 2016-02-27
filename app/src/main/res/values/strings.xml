@@ -14,4 +14,6 @@
     <string name="timeEnd">เวลาเที่ยวสุดท้าย</string>
     <string name="specialnews">ข่าวสาร</string>
 
+    <string name="lat">ลติจูด</string>
+    <string name="lng">ลองจิจูด</string>
 </resources>
