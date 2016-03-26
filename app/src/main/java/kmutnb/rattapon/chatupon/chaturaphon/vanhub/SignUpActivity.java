@@ -34,6 +34,8 @@ public class SignUpActivity extends AppCompatActivity {
             phoneString, priceString, nameString, newsString,
             stopString, timeStartString, timeEndString;
 
+    private TextView latTextView, lngTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,15 +46,14 @@ public class SignUpActivity extends AppCompatActivity {
 
         //Crete Spinner
         creteSpinner();
-
-        //Open Service Get Location
-        openServiceGetLocation();
+        //open service get location
+        openServicegetlocation();
 
     }   // Main Method
 
-    private void openServiceGetLocation() {
+    private void openServicegetlocation() {
 
-    } //openServiceGetLocation
+    }   //open service get location
 
     private void creteSpinner() {
 
